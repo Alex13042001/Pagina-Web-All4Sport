@@ -1,1 +1,114 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>All4Sport - Inicio</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <h1 class="logo">All4Sport</h1>
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="futbol.html">Fútbol</a>
+        <a href="baloncesto.html">Baloncesto</a>
+        <a href="running.html">Running</a>
+        <a href="fitness.html">Fitness</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+      <form class="search" action="#" role="search">
+        <input type="search" placeholder="Buscar..." name="q" />
+      </form>
+    </div>
+  </header>
 
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <img src="img/hero-running.jpg" alt="Persona corriendo" />
+        <div class="hero-text">
+          <h2>Tienda deportiva online</h2>
+          <p>Encuentra lo que necesitas para tu deporte favorito.</p>
+          <a class="btn primary" href="futbol.html">Ver productos</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="categorias" aria-labelledby="cat-title">
+      <h2 id="cat-title">Categorías</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="img/balon.jpg" alt="Fútbol" />
+          <h3>Fútbol</h3>
+          <a href="futbol.html">Ver</a>
+        </article>
+        <article class="card">
+          <img src="img/basket.jpg" alt="Baloncesto" />
+          <h3>Baloncesto</h3>
+          <a href="baloncesto.html">Ver</a>
+        </article>
+        <article class="card">
+          <img src="img/running.jpg" alt="Running" />
+          <h3>Running</h3>
+          <a href="running.html">Ver</a>
+        </article>
+        <article class="card">
+          <img src="img/fitness.jpg" alt="Fitness" />
+          <h3>Fitness</h3>
+          <a href="fitness.html">Ver</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="destacados" aria-labelledby="dest-title">
+      <h2 id="dest-title">Productos destacados</h2>
+      <div class="productos-grid">
+        <article class="producto">
+          <img src="img/balon.jpg" alt="Balón de fútbol" />
+          <h3>Balón de fútbol</h3>
+          <p class="precio">22,00 €</p>
+        </article>
+        <article class="producto">
+          <img src="img/botas.jpg" alt="Botas de fútbol" />
+          <h3>Botas de fútbol</h3>
+          <p class="precio">75,00 €</p>
+        </article>
+        <article class="producto">
+          <img src="img/zapatilla-running.jpg" alt="Zapatillas running" />
+          <h3>Zapatillas</h3>
+          <p class="precio">90,00 €</p>
+        </article>
+        <article class="producto">
+          <img src="img/esterilla.jpg" alt="Esterilla" />
+          <h3>Esterilla</h3>
+          <p class="precio">20,00 €</p>
+        </article>
+      </div>
+      <a class="btn secondary" href="blog.html">Ver todo el catálogo</a>
+    </section>
+  </main>
+
+  <aside class="sidebar">
+    <h4>Newsletter</h4>
+    <form action="formulario.html">
+      <input type="email" placeholder="Tu email" />
+      <button>Suscribirse</button>
+    </form>
+  </aside>
+
+  <footer>
+    <div class="container">
+      <nav>
+        <a href="contacto.html">Contacto</a> |
+        <a href="sobre-nosotros.html">Sobre nosotros</a> |
+        <a href="formularios.html">Formulario</a>
+      </nav>
+      <p>&copy; 2025 All4Sport</p>
+    </div>
+  </footer>
+
+  <script src="js/funciones.js"></script>
+</body>
+</html>
