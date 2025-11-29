@@ -19,7 +19,7 @@ header{background:#fff;border-bottom:1px solid #e8e8e8;position:sticky;top:0;z-i
 .btn{display:inline-block;padding:10px 16px;border-radius:8px;text-decoration:none}
 .btn.primary{background:var(--verde);color:#fff}
 .btn.secondary{background:var(--naranja);color:#fff}
-.categorias .cards{display:flex;gap:16px;flex-wrap:wrap;padding:20px}
+.categorias .cards{display:flex;gap:16px;flex-wrap:wrap;padding:10px}
 .card{background:#fff;padding:12px;border:1px solid #e6e6e6;border-radius:6px;text-align:center;width:220px}
 .productos-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:20px}
 .producto{background:#fff;padding:8px;border:1px solid #e6e6e6;border-radius:6px;text-align:center}
