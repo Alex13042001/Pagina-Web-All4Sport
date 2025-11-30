@@ -30,8 +30,12 @@ header{background:#fff;border-bottom:1px solid #e8e8e8;position:sticky;top:0;z-i
 .producto img {width: 100%;height: auto;object-fit: contain;max-height: 200px;}
 .footer{padding:24px;text-align:center}
 footer{background:#fff;border-top:1px solid #e8e8e8;padding:16px 0;margin-top:40px}
-@media(max-width:900px){
-  .hero-inner{flex-direction:column}
-  .productos-grid{grid-template-columns:repeat(2,1fr)}
-  .card{width:calc(50% - 16px)}
-}
+.newsletter-container {display: flex;flex-direction: column;align-items: center;background-color: #f9f9f9;padding: 30px;border-radius: 10px;max-width: 500px;margin: 40px auto;box-shadow: 0 4px 8px rgba(0,0,0,0.1);}
+.newsletter-container h2 {margin-bottom: 20px;text-align: center;}
+.newsletter-form {display: flex;flex-direction: column;width: 100%;gap: 15px;}
+.newsletter-form input,
+.newsletter-form textarea {padding: 10px 15px;border: 1px solid #ccc;border-radius: 6px;font-size: 16px;width: 100%;box-sizing: border-box;}
+.newsletter-form textarea {resize: vertical;min-height: 100px;}
+.newsletter-form button {padding: 12px;background-color: #007bff;color: white;border: none;border-radius: 6px;font-size: 16px;cursor: pointer;transition: background-color 0.3s;}
+.newsletter-form button:hover {background-color: #0056b3;}
+
