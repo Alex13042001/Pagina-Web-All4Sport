@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Sobre Nosotros - All4Sport</title><link rel="stylesheet" href="css/estilos.css"></head>
+<body>
+  <link rel="stylesheet" href="css/estilo.css"/>
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h1>Sobre Nosotros</h1>
+          <p>Tu familia, tu sitio</p>
+        </div>
+      </div>
+    </section>
+  <main class="container">
+    <article>
+      <h1 class="titulo">Nuestra Historia</h1>
+      <p>All4Sport nació en 2025 de la iniciativa de un joven apasionado del deporte y los valores familiares, con la misión de ofrecer todo lo necesario para la práctica deportiva en un solo lugar. El nombre de la plataforma refleja claramente esta idea: “All for Sport” simboliza variedad, accesibilidad y amplitud, mostrando que cada deportista, sin importar su nivel o edad, puede encontrar lo que necesita.</p>
+      <p>La plataforma se centra especialmente en deportes como fútbol, baloncesto, fitness y running, combinando así opciones para quienes buscan tanto rendimiento como ocio activo. All4Sport apuesta por un enfoque inclusivo y económico, para que la práctica deportiva sea accesible a todos, fomentando hábitos saludables sin que suponga una carga para la familia o el bolsillo.</p>
+      <p>En All4Sport, la juventud, la familia y el deporte se unen para crear una experiencia completa: productos, información y recursos que inspiran a mantenerse activo, disfrutar del deporte y compartir momentos saludables con los seres queridos.</p>
+    </article>
+  </main>
+
+ <footer>
+    <div class="container">
+      <nav>
+        <a href="contacto.html">Contacto</a> |
+        <a href="sobre_nosotros.html">Sobre nosotros</a> |
+        <a href="formularios.html">Formulario</a>
+      </nav>
+      <p>&copy; 2025 All4Sport</p>
+    </div>
+  </footer>
