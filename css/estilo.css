@@ -36,6 +36,6 @@ footer{background:#fff;border-top:1px solid #e8e8e8;padding:16px 0;margin-top:40
 .newsletter-form input,
 .newsletter-form textarea {padding: 10px 15px;border: 1px solid #ccc;border-radius: 6px;font-size: 16px;width: 100%;box-sizing: border-box;}
 .newsletter-form textarea {resize: vertical;min-height: 100px;}
-.newsletter-form button {padding: 12px;background-color: #007bff;color: white;border: none;border-radius: 6px;font-size: 16px;cursor: pointer;transition: background-color 0.3s;}
+.newsletter-form button {padding: 12px;background-color:var(--verde);color: white;border: none;border-radius: 6px;font-size: 16px;cursor: pointer;transition: background-color 0.3s;}
 .newsletter-form button:hover {background-color: #0056b3;}
 
