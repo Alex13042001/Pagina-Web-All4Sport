@@ -60,5 +60,9 @@ fieldset label{margin-right:12px;font-size:14px}
 .actions{display:flex;gap:12px;align-items:center;justify-content:flex-start;margin-top:6px}
 .btn-secondary{background:#eef2f7;color:#111827;border:none;padding:10px 12px;border-radius:8px;cursor:pointer;}
 .logo{color:var(--verde);font-weight:700} 
+#formMessage {margin-top: 15px;padding: 12px;border-radius: 6px;background: #e8ffe8;border: 1px solid #8cd98c;color: #2e6b2e;font-weight: bold;display: none;}
+#formMessage.visible {display: block;}
+.oculto {display: none;}
+
 
 
