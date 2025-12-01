@@ -58,7 +58,6 @@ fieldset label{margin-right:12px;font-size:14px}
 .error{color:#b00020}
 .success{color:green}
 .actions{display:flex;gap:12px;align-items:center;justify-content:flex-start;margin-top:6px}
-.btn-primary{background:var(--accent);color:var(--verde);border:none;padding:10px 16px;border-radius:8px;font-weight:600;cursor:pointer;}
 .btn-secondary{background:#eef2f7;color:#111827;border:none;padding:10px 12px;border-radius:8px;cursor:pointer;}
 .logo{color:var(--verde);font-weight:700} 
 
