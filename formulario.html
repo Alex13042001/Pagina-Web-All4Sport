@@ -34,9 +34,6 @@
     <p class="lead">Rellena los datos y uno de nuestros asesores te contestará por correo.</p>
 
     <form id="adviceForm" method="post" enctype="multipart/form-data" novalidate>
-      <div class="visually-hidden">
-        <label>Deja este campo vacío<input type="text" name="website" autocomplete="off" tabindex="-1"></label>
-      </div>
 
       <div class="field">
         <label for="nombre">Nombre completo *</label>
@@ -82,17 +79,14 @@
       </div>
 
       <div class="field">
-        <label for="product">Producto (elige uno) *</label>
-        <select id="product" name="product" required>
-          <option value="">-- Elige producto --</option>
-        </select>
-        <small class="hint">Las opciones cambian según el deporte seleccionado.</small>
-      </div>
-
-      <div class="field">
         <label for="talla">¿Qué tallas usas? (opcional)</label>
         <select id="talla" name="talla">
           <option value="">No indicar</option>
+          <option value="XS">XS</option>
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
           <option value="36">36</option>
           <option value="37">37</option>
           <option value="38">38</option>
@@ -100,6 +94,9 @@
           <option value="40">40</option>
           <option value="41">41</option>
           <option value="42">42</option>
+          <option value="43">43</option>
+          <option value="44">44</option>
+          <option value="45">45</option>
         </select>
       </div>
 
@@ -132,11 +129,6 @@
         <label for="imagen">Subir imagen (opcional)</label>
         <input id="imagen" name="imagen" type="file" accept="image/*">
         <small class="hint">Puedes subir una foto del producto o de tu calzado para que te asesoremos mejor.</small>
-      </div>
-
-      <div class="field gdpr">
-        <input id="consent" name="consent" type="checkbox" required>
-        <label for="consent">Acepto la <a href="#">política de privacidad</a> y que me contacten por email.</label>
       </div>
 
       <div id="messages" aria-live="polite"></div>
