@@ -1,10 +1,4 @@
-:root{
-  --verde:#1BA87A;
-  --naranja:#F58A2E;
-  --blanco:#ffffff;
-  --negro:#222222;
-  --gris:#F4F4F4;
-}
+:root{--verde:#1BA87A;--naranja:#F58A2E;--blanco:#ffffff;--negro:#222222;--gris:#F4F4F4;}
 *{box-sizing:border-box}
 body{font-family:Roboto,Arial,Helvetica,sans-serif;margin:0;color:var(--negro);background:#fff}
 .container{max-width:1100px;margin:0 auto;padding:0 16px}
